@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="column">
+                <h3 class="teamName">HOME</h3>
+                <h4 id="homepoints" class="scorebacking">0</h4>
+            <button onclick="homeplus1()" class="scorebutton">+1</button>
+            <button onclick="homeplus2()" class="scorebutton">+2</button>
+            <button onclick="homeplus3()" class="scorebutton">+3</button>
+            </div>
+            <div class="column">
+                <button onclick="newGame()" class="newgamebutton">New Game</button>
+            </div>
+            <div class="column">
+            <h3 class="teamName">GUEST</h3>
+            <h4 id="guestpoints" class="scorebacking">0</h4>
+            <button onclick="guestplus1()" class="scorebutton">+1</button>
+            <button onclick="guestplus2()" class="scorebutton">+2</button>
+            <button onclick="guestplus3()" class="scorebutton">+3</button>
+            </div>                
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

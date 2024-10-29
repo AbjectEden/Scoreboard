@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+        background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.teamName{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #EEEEEE;
+    width: 120px;
+    margin: 20px;
+}
+.scorebacking {
+    font-family: wallpoet, sans-serif;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.homepoints{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;}
+.scorebutton{
+    background-color: #1B244A;
+  color: #9AABD8;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  font-family: Wallpoet, sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  width: 25%;
+}
+.newgamebutton{
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: Wallpoet, sans-serif;
+    font-size: 12pt;
+    margin: 1em;
+    }   
